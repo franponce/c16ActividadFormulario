@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+
+    <main>
+      <div>
+          <h1>Añadí tu super!</h1>
+          <p>Agregá tu personaje favorito completando las opciones</p>
+        <section>
+            <form action="" method="post">
+                <label for="nombre">* Nombre</label>
+                <input type="text" name="dataNombre" id="nombre">
+
+                <label for="fecha">* Fecha</label>
+                <input type="date" name="dataFecha" id="fecha">
+
+                <textarea name="datosComentarios" id="descripcion" cols="30" rows="10"></textarea>
+
+            </form>
+        </section>
+
+        <section>
+            <form action="" method="post">
+                <label for="especie">* Especie</label>
+                <select name="datosEspecie">
+                    <option value="especie1">Especie 1</option>
+                    <option value="especie2" selected>Especie 2</option>
+                    <option value="especie3">Especie 3</option>
+                </select>
+
+                <label for="foto">Agregar foto</label>
+                <input type="file" name="archivo">
+
+                <label for="poderes">Poderes
+                <input type="checkbox" name="dataVolar" id="volar" value="seleccionado">Volar
+                <input type="checkbox" name="dataSuperInteligencia" id="superinteligencia" value="seleccionado">Superinteligencia
+                <input type="checkbox" name="dataVistaDeRayoLaser" id="vistaderayolaser" value="seleccionado">Vista de rayo láser
+                <input type="checkbox" name="dataBilleteraGorda" id="billeteragorda" value="seleccionado">Billetera gorda
+              </label>
+            </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
